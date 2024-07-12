@@ -9,8 +9,7 @@ def main():
         "English": {
             "title": "PAMiLYA: Philippine Family Law Chatbot - Empowering Access to Legal Help",
             "about": "About the App",
-            "description": "
-In the Philippines, many underprivileged families face legal issues but cannot readily afford the high costs associated with legal assistance. PAMiLYA, a database of family relations related legal cases and resolutions, aims to bridge this gap. It offers free and accessible pre-legal consultation related to family law, aiding families, students, lawmakers, law enforcers, societal organizations, and law enthusiasts in gaining awareness and understanding of Philippine Family Law. This initiative also aims to assist Barangay officials or LGU units in providing necessary legal counsel to resolve family conflicts or disputes. PAMiLYA seeks to empower families and communities by providing clear, understandable guidance on their rights and legal options.",
+            "description": "In the Philippines, many underprivileged families face legal issues but cannot readily afford the high costs associated with legal assistance. PAMiLYA, a database of family relations related legal cases and resolutions, aims to bridge this gap. It offers free and accessible pre-legal consultation related to family law, aiding families, students, lawmakers, law enforcers, societal organizations, and law enthusiasts in gaining awareness and understanding of Philippine Family Law. This initiative also aims to assist Barangay officials or LGU units in providing necessary legal counsel to resolve family conflicts or disputes. PAMiLYA seeks to empower families and communities by providing clear, understandable guidance on their rights and legal options.",
             "how_to_use": """
             Insert your instructions or guide on how to use the app here.
             You can use Markdown for formatting:
