@@ -20,7 +20,12 @@ def main():
             "limitations_header": "Limitations of the App",
             "limitations": "sample limitations", "st.markdown": "---",
             "citations": """
-            1. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
+            1. Senate and House of Representatives. (1987). Executive Order No. 209, s. 1987 - The Family Code of the Philippines. Official Gazette of the Republic of the Philippines. Retrieved from https://www.officialgazette.gov.ph/1987/07/06/executive-order-no-209-s-1987/
+            2. Senate and House of Representatives. (1989). Republic Act No. 6809 - AN ACT LOWERING THE AGE OF MAJORITY FROM TWENTY-ONE TO EIGHTEEN YEARS. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/7025
+            3. Senate and House of Representatives. (2004). Republic Act No. 9255 - AN ACT ALLOWING ILLEGITIMATE CHILDREN TO USE THE SURNAME OF THEIR FATHER. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/277
+            4. Senate and House of Representatives. (2009). Republic Act No. 8552 - AN ACT PROVIDING FOR THE LEGITIMATION OF CHILDREN BORN TO PARENTS BELOW MARRYING AGE. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/17263
+            5.Senate and House of Representatives. (2013). Republic Act No. 10572 - AN ACT ESTABLISHING THE LIABILITY OF THE ABSOLUTE COMMUNITY OR CONJUGAL PARTNERSHIP FOR AN OBLIGATION OF A SPOUSE WHO PRACTICES A PROFESSION AND THE CAPABILITY OF EITHER SPOUSE TO DISPOSE OF AN EXCLUSIVE PROPERTY WITHOUT THE CONSENT OF THE OTHER SPOUSE. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/assets/dtSearch/dtSearch_system_files/dtisapi6.dll?cmd=getdoc&DocId=16499&Index=*2ceb34621b4a207c3a52af138f1e7bbf&HitCount=6&hits=59+5a+74+75+f9+fa+&SearchForm=C%3A%5Celibrev2%5Csearch%5Csearch_form
+            6. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
             """
         },
         "Filipino": {
