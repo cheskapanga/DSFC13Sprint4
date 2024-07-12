@@ -16,7 +16,7 @@ def main():
             - Bullet 1
             - Bullet 2
             """,
-            "limitations": "sample limitations",
+            "limitations": "sample limitations", "st.markdown": "---",
             "citations": """
             1. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
             """
@@ -31,7 +31,7 @@ def main():
             - Tuldok 1
             - Tuldok 2
             """,
-            "limitations": "sample limitations",
+            "limitations": "sample limitations", "st.markdown": "---",
             "citations": """
             1. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
             """
