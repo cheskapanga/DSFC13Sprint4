@@ -19,7 +19,7 @@ def main():
             "limitations": "sample limitations"
         },
         "Filipino": {
-            "title": "Pamagat",
+            "title": "PAMiLYA: Chatbot para sa Philippine Family Law - Pinapaigtingin Makamit ang Tulong Legal",
             "about": "Tungkol sa App",
             "description": "Sa Pilipinas, maraming pamilyang mahihirap ang hinaharap ang mga isyung legal ngunit hindi agad makakaya ang mataas na gastos na kaakibat ng tulong legal. Ang PAMiLYA, isang database ng mga kaso at resolusyon sa batas pamilya, ay nilikha upang punan ang agwat na ito. Nag-aalok ito ng libre at abot-kayang konsultasyon bago mag-legal na nauugnay sa batas pamilya, tumutulong sa mga pamilya, mag-aaral, mga mambabatas, mga tagapagtupad ng batas, mga organisasyon sa lipunan, at mga tagahanga ng batas na maunawaan ang batas pamilya sa Pilipinas. Layunin din nito ang pagtulong sa mga opisyal ng Barangay o mga yunit ng LGU sa pagbibigay ng kaukulang payo legal upang lutasin ang mga alitan o labanang pamilya. Ang PAMiLYA ay layuning palakasin ang mga pamilya at komunidad sa pamamagitan ng malinaw at maaunawaang patnubay tungkol sa kanilang mga karapatan at legal na mga pagpipilian.",
             "how_to_use": """
@@ -40,9 +40,9 @@ def main():
     st.title(pages[page_selection]["title"])
     st.header(pages[page_selection]["about"])
     st.write(pages[page_selection]["description"])
-    st.header('How to Use the App')
+    st.header('Paano Gamitin ang App')
     st.write(pages[page_selection]["how_to_use"])
-    st.header('Limitations of the App')
+    st.header('Limitasyon ng App')
     st.write(pages[page_selection]["limitations"])
 
     # Citations in small letters at the bottom
