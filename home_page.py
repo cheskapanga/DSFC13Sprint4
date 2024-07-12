@@ -36,7 +36,8 @@ def main():
     # Display the selected page content
     st.title(pages[page_selection]["title"])
     st.header(pages[page_selection]["about"])
-    st.subheader('How to Use the App')
+    st.write(pages[page_selection]["description"])
+    st.header('How to Use the App')
     st.write(pages[page_selection]["how_to_use"])
 
     # Citations in small letters at the bottom
