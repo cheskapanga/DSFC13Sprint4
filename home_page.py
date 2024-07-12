@@ -61,7 +61,7 @@ def main():
     }
 
     # Sidebar to select the page
-    page_selection = st.sidebar.radio("Select Page", list(pages.keys()), index=list(pages.keys()).index(page))
+    page_selection = st.sidebar.radio("Home Page", list(pages.keys()), index=list(pages.keys()).index(page))
     st.experimental_set_query_params(page=page_selection)
 
     # Display the selected page content
