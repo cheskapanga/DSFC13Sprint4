@@ -57,15 +57,16 @@ def main():
     # Define the pages with title, about, description, and how_to_use
     pages = {
         "English": {
-            "title": "Title",
+            "title": "PAMiLYA: Philippine Family Law Chatbot - Empowering Access to Legal Help",
             "about": "About the App",
-            "description": "Empowering Access to Legal Help: In the Philippines, many underprivileged families face legal issues but cannot readily  afford the high costs associated with legal assistance. PAMiLYA is designed to bridge this gap, offering free and accessible pre-legal consultation related to family law. This chatbot aims to empower families and communities by providing clear, understandable guidance on their rights and legal options.",
+            "description": "In the Philippines, many underprivileged families face legal issues but cannot readily  afford the high costs associated with legal assistance. PAMiLYA is designed to bridge this gap, offering free and accessible pre-legal consultation related to family law. This chatbot aims to empower families and communities by providing clear, understandable guidance on their rights and legal options.",
             "how_to_use": """
             Insert your instructions or guide on how to use the app here.
             You can use Markdown for formatting:
             - Bullet 1
             - Bullet 2
-            """
+            """,
+            "limitations": "sample limitations"
         },
         "Filipino": {
             "title": "Pamagat",
@@ -76,7 +77,8 @@ def main():
             Pwede kang gumamit ng Markdown para sa pag-format:
             - Tuldok 1
             - Tuldok 2
-            """
+            """,
+            "limitations": "sample limitations"
         }
     }
 
@@ -87,9 +89,11 @@ def main():
     # Display the selected page content
     st.title(pages[page_selection]["title"])
     st.header(pages[page_selection]["about"])
-    st.write(pages[page_selection]["description"])  # Added description here
-    st.subheader('How to Use the App')
+    st.write(pages[page_selection]["description"])
+    st.header('How to Use the App')
     st.write(pages[page_selection]["how_to_use"])
+    st.header('Limitations of the App')
+    st.write(pages[page_selection]["limitations"])
 
     # Citations in small letters at the bottom
     st.sidebar.markdown('**Citations**')
