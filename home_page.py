@@ -46,7 +46,7 @@ def main():
     st.title(pages[page_selection]["title"])
     st.header(pages[page_selection]["about"])
     st.write(pages[page_selection]["description"])
-    st.header('Paano Gamitin ang App')
+    st.header('How to Use the App')
     st.write(pages[page_selection]["how_to_use"])
     st.header('Limitations of the App')
     st.write(pages[page_selection]["limitations"])
