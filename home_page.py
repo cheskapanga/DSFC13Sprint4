@@ -22,7 +22,7 @@ def main():
             "limitations": """
             1. Chatbot is only as up to date as the latest database update. The database for this app needs updating whenever the Family Code is ammended.
             2. The app requires internet connection to function.
-            """
+            """,
             "citations": """
             1. Senate and House of Representatives. (1987). Executive Order No. 209, s. 1987 - The Family Code of the Philippines. Official Gazette of the Republic of the Philippines. Retrieved from https://www.officialgazette.gov.ph/1987/07/06/executive-order-no-209-s-1987/
             2. Senate and House of Representatives. (1989). Republic Act No. 6809 - AN ACT LOWERING THE AGE OF MAJORITY FROM TWENTY-ONE TO EIGHTEEN YEARS. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/7025
@@ -48,7 +48,7 @@ def main():
             "limitations": """
             1. Ang Chatbot ay kasing updated lamang ng pinakahuling update ng database. Ang database para sa app na ito ay kailangang i-update tuwing may mga pagbabago sa Family Code.
             2. Ang app ay nangangailangan ng internet connection upang mag-function.
-            """
+            """,
             "citations": """
             1. Senate and House of Representatives. (1987). Executive Order No. 209, s. 1987 - The Family Code of the Philippines. Official Gazette of the Republic of the Philippines. Retrieved from https://www.officialgazette.gov.ph/1987/07/06/executive-order-no-209-s-1987/
             2. Senate and House of Representatives. (1989). Republic Act No. 6809 - AN ACT LOWERING THE AGE OF MAJORITY FROM TWENTY-ONE TO EIGHTEEN YEARS. Judiciary of the Philippines. Retrieved from https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/7025
