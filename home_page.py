@@ -50,6 +50,7 @@ def main():
     st.write(pages[page_selection]["how_to_use"])
     st.header('Limitasyon ng App')
     st.write(pages[page_selection]["limitations"])
+    st.markdown("---")
     st.write('Citations')
     st.caption(pages[page_selection]["citations"])
 
