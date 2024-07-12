@@ -47,7 +47,7 @@ def main():
 
     # Citations in small letters at the bottom
     st.sidebar.markdown('**Citations**')
-    st.sidebar.write("Insert your citations or references here.")
+    st.sidebar.write("UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf")
 
 if __name__ == "__main__":
     main()
