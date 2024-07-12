@@ -16,7 +16,10 @@ def main():
             - Bullet 1
             - Bullet 2
             """,
-            "limitations": "sample limitations"
+            "limitations": "sample limitations",
+            "citations": """
+            1. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
+            """
         },
         "Filipino": {
             "title": "PAMiLYA: Chatbot para sa Philippine Family Law - Pinapaigtingin Makamit ang Tulong Legal",
@@ -28,7 +31,10 @@ def main():
             - Tuldok 1
             - Tuldok 2
             """,
-            "limitations": "sample limitations"
+            "limitations": "sample limitations",
+            "citations": """
+            1. UST Faculty. (2021). Persons and Family Relations. Retrieved from https://www.ustcivillaw.com/wp-content/uploads/2021/08/Persons-and-Family-Relations_HVNj62YQuGoFTpNVUVNb.pdf
+            """
         }
     }
 
@@ -44,6 +50,8 @@ def main():
     st.write(pages[page_selection]["how_to_use"])
     st.header('Limitasyon ng App')
     st.write(pages[page_selection]["limitations"])
+    st.write('Citations')
+    st.caption(pages[page_selection]["citations"])
 
     # Citations in small letters at the bottom
     st.sidebar.markdown('**Citations**')
